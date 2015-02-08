@@ -1,0 +1,68 @@
+#panelFilter{
+	position: fixed;
+	display: block;
+	right: 0;
+	top: 30%;
+	width: 200px;
+	max-height: 80%;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 5px 0 0 5px;
+	z-index: 99;
+}
+
+#panelFilter input[type='text']{
+	border: none;
+	padding: 4px 2px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+#panelFilter button.active{
+	background: #fff;
+	border: 1px solid #34AE34;
+	color: #34AE34;
+}
+
+#panelFilter button{
+	max-width: 100%;
+	font-size: 140%;
+	padding: 5px 10px;
+	background: #ddd;
+	border: none;
+	color: #000;
+	border-radius: 250px;
+	margin: 2px;
+
+	white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#panelFilter button.rolla{
+	
+}
+
+#panelFilter .olaybadge{
+	background-color: transparent;
+	color: #444;
+	float: right;
+}
+
+#panelFilter .section{
+	padding: 6px 3px;
+}
+
+#panelFilter .section .footer{
+	padding-left: 10px;
+}
+
+#panelFilter .section:nth-child(even) {
+	background-color: #eee;
+}
+
+#panelFilter ul{
+	list-style-type: none;
+}
+#panelFilter ul li {
+	margin-bottom: 2px;
+}

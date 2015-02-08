@@ -1,0 +1,25 @@
+@import 'reset';
+@import 'logo';
+@import 'panelFilter';
+@import 'panelDateSlider';
+
+$primary-color: green;
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font: 100% Helvetica, sans-serif;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+#main, #appcontainer, #map{
+	width: 100%;
+	height: 100%;
+}
+
